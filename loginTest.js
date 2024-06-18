@@ -1,4 +1,4 @@
-
+const { Builder, By, Key, until } = require('selenium-webdriver');
 async function automateLogin() {
   const driver = new Builder().forBrowser('chrome').build();
 
